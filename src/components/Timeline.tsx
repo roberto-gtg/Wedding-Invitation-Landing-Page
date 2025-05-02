@@ -1,20 +1,20 @@
 import React from 'react';
 export const Timeline = () => {
   const events = [{
-    time: '2:00 PM',
-    title: 'Ceremony',
+    time: '12:00 PM',
+    title: 'Iglesia',
     description: "Join us as we exchange vows in the Rosewood Garden's main pavilion."
   }, {
     time: '3:30 PM',
-    title: 'Cocktail Hour',
+    title: 'Hora de coctel',
     description: "Enjoy drinks and hors d'oeuvres on the terrace while we take photos."
   }, {
-    time: '5:00 PM',
-    title: 'Reception',
+    time: '4:00 PM',
+    title: 'Recepción',
     description: 'Dinner, toasts, and celebration in the Grand Ballroom.'
   }, {
-    time: '9:00 PM',
-    title: 'Dancing',
+    time: '7:00 PM',
+    title: 'Cena',
     description: 'Join us on the dance floor for a night to remember.'
   }];
   return <div className="w-full py-24 px-4 bg-white">

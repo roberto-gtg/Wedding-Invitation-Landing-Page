@@ -4,11 +4,10 @@ export const Gallery = () => {
   return <div className="w-full py-24 px-4 bg-[#faf7f5]">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-serif text-center mb-6 text-gray-800">
-          Our Journey
+          Nuestra Vida
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          A glimpse into our love story and the moments that have led us to this
-          special day.
+          Recuerdos de nuestro amor y los momentos que han llevado a este día especial.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {photos.map((photo, index) => <div key={index} className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">

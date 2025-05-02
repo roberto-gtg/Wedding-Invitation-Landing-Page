@@ -9,11 +9,21 @@ import { Footer } from './components/Footer';
 export function App() {
   return <div className="w-full min-h-screen bg-[#faf7f5]">
       <HeroSection />
-      <EventDetails />
-      <RsvpForm />
-      <Timeline />
-      <Gallery />
-      <AdditionalInfo />
+      <div id="details">
+        <EventDetails />
+      </div>
+      <div id="rsvp">
+        <RsvpForm />
+      </div>
+      <div id="timeline">
+        <Timeline />
+      </div>
+      <div id="gallery">
+        <Gallery />
+      </div>
+      <div id="info">
+        <AdditionalInfo />
+      </div>
       <Footer />
     </div>;
 }
