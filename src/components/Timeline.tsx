@@ -23,23 +23,26 @@ export const Timeline = () => {
           Wedding Day Timeline
         </h2>
         <div className="relative">
-          {/* Vertical line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-px bg-[#d4b8aa]"></div>
+          {/* Vertical line - hidden on mobile */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-px bg-[#d4b8aa] hidden md:block" />
           {/* Timeline events */}
-          {events.map((event, index) => <div key={index} className={`flex flex-col md:flex-row items-center mb-16 ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`}>
-              <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12'}`}>
+          {events.map((event, index) => <div key={index} className={`flex flex-col md:flex-row items-center mb-16 relative ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`}>
+              {/* Mobile timeline line */}
+              <div className="absolute h-full w-px bg-[#d4b8aa] left-4 top-0 md:hidden" />
+              <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12'} pl-12 md:pl-0`}>
                 <h3 className="text-xl font-medium text-gray-800">
                   {event.title}
                 </h3>
                 <p className="text-[#d4b8aa] font-medium mb-2">{event.time}</p>
                 <p className="text-gray-600">{event.description}</p>
               </div>
-              <div className="my-4 md:my-0 z-10">
-                <div className="w-10 h-10 rounded-full bg-[#f5efe9] border-4 border-white flex items-center justify-center">
-                  <div className="w-3 h-3 rounded-full bg-[#d4b8aa]"></div>
+              {/* Timeline dot */}
+              <div className="absolute left-4 md:static my-4 md:my-0 z-10">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#f5efe9] border-4 border-white flex items-center justify-center">
+                  <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-[#d4b8aa]" />
                 </div>
               </div>
-              <div className="md:w-1/2"></div>
+              <div className="md:w-1/2" />
             </div>)}
         </div>
       </div>
