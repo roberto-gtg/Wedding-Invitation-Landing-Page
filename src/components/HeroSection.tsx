@@ -8,7 +8,7 @@ export const HeroSection = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   useEffect(() => {
     const calculateDaysLeft = () => {
-      const weddingDate = new Date('2025-09-20');
+      const weddingDate = new Date('2025-06-21');
       const today = new Date();
       const timeDiff = weddingDate.getTime() - today.getTime();
       const daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
@@ -50,9 +50,9 @@ export const HeroSection = () => {
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('rsvp')} className="text-white text-xl hover:text-[#d4b8aa] transition-colors">
+                <a href="https://forms.gle/DFaJfwMiwsX29GG68" target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:text-[#d4b8aa] transition-colors">
                   RSVP
-                </button>
+                </a>
               </li>
               <li>
                 <button onClick={() => scrollToSection('timeline')} className="text-white text-xl hover:text-[#d4b8aa] transition-colors">
@@ -62,11 +62,6 @@ export const HeroSection = () => {
               <li>
                 <button onClick={() => scrollToSection('gallery')} className="text-white text-xl hover:text-[#d4b8aa] transition-colors">
                   Galería
-                </button>
-              </li>
-              <li>
-                <button onClick={() => scrollToSection('info')} className="text-white text-xl hover:text-[#d4b8aa] transition-colors">
-                  Información
                 </button>
               </li>
             </ul>
@@ -84,9 +79,9 @@ export const HeroSection = () => {
               </button>
             </li>
             <li>
-              <button onClick={() => scrollToSection('rsvp')} className="hover:text-[#d4b8aa] transition-colors">
+              <a href="https://forms.gle/DFaJfwMiwsX29GG68" target="_blank" rel="noopener noreferrer" className="hover:text-[#d4b8aa] transition-colors">
                 RSVP
-              </button>
+              </a>
             </li>
             <li>
               <button onClick={() => scrollToSection('timeline')} className="hover:text-[#d4b8aa] transition-colors">
@@ -96,11 +91,6 @@ export const HeroSection = () => {
             <li>
               <button onClick={() => scrollToSection('gallery')} className="hover:text-[#d4b8aa] transition-colors">
                 Galería
-              </button>
-            </li>
-            <li>
-              <button onClick={() => scrollToSection('info')} className="hover:text-[#d4b8aa] transition-colors">
-                Información
               </button>
             </li>
           </ul>
@@ -126,14 +116,19 @@ export const HeroSection = () => {
           <div className="h-px w-8 md:w-12 bg-white"></div>
         </div>
         <p className="text-lg md:text-2xl font-light mb-6 md:mb-8">
-          Septiembre 20, 2025
+          Junio 21, 2025
         </p>
         <p className="text-base md:text-xl font-light">
-          Ikaan • Nuevo León • México
+          San Pedro Garza García • Nuevo León • México
         </p>
-        <button onClick={() => scrollToSection('rsvp')} className="mt-8 md:mt-12 px-6 md:px-8 py-3 border-2 border-white hover:bg-white hover:bg-opacity-20 transition-all duration-300 text-white font-light tracking-wider text-sm md:text-base">
+        <a 
+          href="https://forms.gle/DFaJfwMiwsX29GG68" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="mt-8 md:mt-12 px-6 md:px-8 py-3 border-2 border-white hover:bg-white hover:bg-opacity-20 transition-all duration-300 text-white font-light tracking-wider text-sm md:text-base"
+        >
           RSVP
-        </button>
+        </a>
         <div className="mt-4 lg:mt-8 flex flex-col items-center">
           <p className="text-2xl md:text-4xl font-serif mb-2">{daysLeft}</p>
           <p className="text-xs md:text-base font-light tracking-wider uppercase">
