@@ -29,7 +29,7 @@ export const RsvpForm = () => {
               Formulario RSVP
               <ExternalLink size={16} className="ml-2" />
             </a>
-          </div>
+            </div>
         </Fade>
       </div>
     </div>

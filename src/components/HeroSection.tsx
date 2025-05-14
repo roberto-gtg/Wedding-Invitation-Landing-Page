@@ -38,7 +38,7 @@ export const HeroSection = () => {
     }
     setIsMobileMenuOpen(false);
   };
-  return <div className="w-full min-h-screen bg-[url('./28.jpeg')] bg-cover bg-center">
+  return <div className="w-full min-h-screen bg-[url('https://uploadthingy.s3.us-west-1.amazonaws.com/qLXwM3wqj9cRsaskcaZoPm/RobertoCompletas%2828%29.jpg')] bg-cover bg-center">
       {/* Mobile Menu - moved outside of nav */}
       {isMobileMenuOpen && 
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[100] lg:hidden">
@@ -71,7 +71,7 @@ export const HeroSection = () => {
       <nav className={`fixed top-0 left-0 right-0 z-[90] transition-all duration-300 ${isScrolled ? 'bg-black/30 backdrop-blur-sm' : 'bg-transparent'}`}>
         {/* Desktop Navigation */}
         <div className="max-w-6xl mx-auto px-4 py-4 hidden lg:flex items-center justify-between">
-          <img src="./logo_knr_white.png" alt="K&R Logo" className="h-12 w-auto" />
+          <img src="/logo_knr_white.png" alt="K&R Logo" className="h-12 w-auto" />
           <ul className="flex justify-center space-x-8 text-white text-sm tracking-wider">
             <li>
               <button onClick={() => scrollToSection('details')} className="hover:text-[#d4b8aa] transition-colors">
@@ -100,7 +100,7 @@ export const HeroSection = () => {
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-white p-2 -ml-2">
             {isMobileMenuOpen ? <XIcon size={24} /> : <MenuIcon size={24} />}
           </button>
-          <img src="./logo_knr_white.png" alt="K&R Logo" className="h-10 w-auto" />
+          <img src="/logo_knr_white.png" alt="K&R Logo" className="h-10 w-auto" />
         </div>
       </nav>
       <div className="w-full min-h-screen flex flex-col items-center justify-center bg-black bg-opacity-30 text-white text-center px-4">

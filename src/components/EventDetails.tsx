@@ -17,7 +17,7 @@ export const EventDetails = () => {
           <Fade direction="up" duration={1000} delay={100} triggerOnce={true} fraction={0.3}>
             <div className="p-6 flex flex-col items-center">
               <div className="w-20 h-20 rounded-full bg-[#f5efe9] flex items-center justify-center mb-4">
-                <CalendarIcon className="text-[#d4b8aa]" size={28} />
+                  <CalendarIcon className="text-[#d4b8aa]" size={28} />
               </div>
               <h3 className="text-xl font-medium mb-2 text-gray-800">Fecha y Horarios</h3>
               <p className="text-gray-600">Junio 21, 2025</p>
@@ -29,7 +29,7 @@ export const EventDetails = () => {
           <Fade direction="up" duration={1000} delay={300} triggerOnce={true} fraction={0.3}>
             <div className="p-6 flex flex-col items-center">
               <div className="w-20 h-20 rounded-full bg-[#f5efe9] flex items-center justify-center mb-4">
-                <PartyPopper className="text-[#d4b8aa]" size={28} />
+                  <PartyPopper className="text-[#d4b8aa]" size={28} />
               </div>
               <h3 className="text-xl font-medium mb-2 text-gray-800">
                 Recepción
@@ -54,7 +54,7 @@ export const EventDetails = () => {
           <Fade direction="up" duration={1000} delay={400} triggerOnce={true} fraction={0.3}>
             <div className="p-6 flex flex-col items-center">
               <div className="w-20 h-20 rounded-full bg-[#f5efe9] flex items-center justify-center mb-4">
-                <GlassesIcon className="text-[#d4b8aa]" size={28} />
+                  <GlassesIcon className="text-[#d4b8aa]" size={28} />
               </div>
               <h3 className="text-xl font-medium mb-2 text-gray-800">
                 Vestimenta
