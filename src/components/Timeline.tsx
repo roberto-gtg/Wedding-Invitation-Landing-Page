@@ -13,7 +13,7 @@ export const Timeline = () => {
   }, {
     time: '5:00 PM',
     title: 'Cóctel y Fotos',
-    description: 'Disfrutemos de bebidas y aperitivos mientras tomamos fotografías para recordar este día tan especial, todo acompañado de música en vivo.'
+    description: 'Disfrutemos de bebidas y aperitivos mientras tomamos fotografías para recordar este día tan especial.'
   }, {
     time: '6:00 PM',
     title: 'Banquete',
