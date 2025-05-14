@@ -71,7 +71,7 @@ export const HeroSection = () => {
       <nav className={`fixed top-0 left-0 right-0 z-[90] transition-all duration-300 ${isScrolled ? 'bg-black/30 backdrop-blur-sm' : 'bg-transparent'}`}>
         {/* Desktop Navigation */}
         <div className="max-w-6xl mx-auto px-4 py-4 hidden lg:flex items-center justify-between">
-          <img src="/logo_knr_white.png" alt="K&R Logo" className="h-12 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}logo_knr_white.png`} alt="K&R Logo" className="h-12 w-auto" />
           <ul className="flex justify-center space-x-8 text-white text-sm tracking-wider">
             <li>
               <button onClick={() => scrollToSection('details')} className="hover:text-[#d4b8aa] transition-colors">
@@ -100,7 +100,7 @@ export const HeroSection = () => {
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-white p-2 -ml-2">
             {isMobileMenuOpen ? <XIcon size={24} /> : <MenuIcon size={24} />}
           </button>
-          <img src="/logo_knr_white.png" alt="K&R Logo" className="h-10 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}logo_knr_white.png`} alt="K&R Logo" className="h-10 w-auto" />
         </div>
       </nav>
       <div className="w-full min-h-screen flex flex-col items-center justify-center bg-black bg-opacity-30 text-white text-center px-4">

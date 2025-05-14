@@ -2,38 +2,42 @@ import React, { useState, useEffect } from 'react';
 import { Fade } from "react-awesome-reveal";
 import { XIcon, ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
 
-const photos = [
-  '/3.jpeg',
-  '/6.JPG',
-  '/4.JPG',
-  '/1.JPG',
-  '/2.jpeg',
-  '/7.JPG',
-  '/8.jpeg',
-  '/9.jpeg',
-  '/10.jpeg',
-  '/11.JPG',
-  '/12.jpeg',
-  '/13.jpeg',
-  '/14.jpg',
-  '/15.JPG',
-  '/16.jpeg',
-  '/17.jpg',
-  '/18.jpg',
-  '/19.JPG',
-  '/20.jpg',
-  '/21.jpg',
-  '/22.jpg',
-  '/23.jpg',
-  '/24.jpeg',
-  '/25.jpeg',
-  '/26.JPG',
-  '/27.jpeg',
-  '/28.jpeg',
-  '/29.JPG',
-  '/30.JPG',
-  '/31.JPG'
+// Construct full URLs for photos using the base URL from Vite
+const baseImageUrl = import.meta.env.BASE_URL;
+const photoFilenames = [
+  '3.jpeg',
+  '6.JPG',
+  '4.JPG',
+  '1.JPG',
+  '2.jpeg',
+  '7.JPG',
+  '8.jpeg',
+  '9.jpeg',
+  '10.jpeg',
+  '11.JPG',
+  '12.jpeg',
+  '13.jpeg',
+  '14.jpg',
+  '15.JPG',
+  '16.jpeg',
+  '17.jpg',
+  '18.jpg',
+  '19.JPG',
+  '20.jpg',
+  '21.jpg',
+  '22.jpg',
+  '23.jpg',
+  '24.jpeg',
+  '25.jpeg',
+  '26.JPG',
+  '27.jpeg',
+  '28.jpeg',
+  '29.JPG',
+  '30.JPG',
+  '31.JPG'
 ];
+
+const photos = photoFilenames.map(filename => `${baseImageUrl}${filename.startsWith('/') ? filename.substring(1) : filename}`);
 
 export const Gallery = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState<number | null>(null);
