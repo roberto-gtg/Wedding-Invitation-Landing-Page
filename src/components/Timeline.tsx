@@ -16,7 +16,7 @@ export const Timeline = () => {
     description: 'Disfrutemos de bebidas y aperitivos mientras tomamos fotografías para recordar este día tan especial.'
   }, {
     time: '6:00 PM',
-    title: 'Banquete',
+    title: 'Cena',
     description: 'Comienza el servicio de alimentos. Disfruta de nuestra selección de platillos mientras la música en vivo ameniza la velada.'
   }, 
 ];
