@@ -16,7 +16,12 @@ A beautiful, responsive wedding invitation website built with React, TypeScript,
 
 ## Recent Updates
 
-### Religious Ceremony Conversion (Latest)
+### Gift Registry Component Refactor (Latest)
+- **New Component**: Created dedicated `GiftRegistry.tsx` component
+- **Repositioning**: Moved gift registry section to bottom of website (after gallery, before footer)
+- **Improved Structure**: Better modularization and component separation
+
+### Religious Ceremony Conversion
 - **Event Type**: Changed from civil ceremony to religious ceremony
 - **Date**: Updated to September 20, 2025
 - **New Timeline**:
@@ -54,11 +59,12 @@ npm run build
 ```
 src/
 ├── components/
-│   ├── EventDetails.tsx    # Wedding details with locations and registry
+│   ├── EventDetails.tsx    # Wedding details with locations and dress code
 │   ├── Timeline.tsx        # Event schedule and timeline
 │   ├── HeroSection.tsx     # Main landing section
 │   ├── RsvpForm.tsx        # RSVP form component
 │   ├── Gallery.tsx         # Photo gallery
+│   ├── GiftRegistry.tsx    # Gift registry section
 │   └── Footer.tsx          # Footer component
 ├── assets/                 # Images and static assets
 └── App.tsx                 # Main application component

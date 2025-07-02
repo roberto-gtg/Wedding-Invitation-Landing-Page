@@ -8,16 +8,16 @@ export const Timeline = () => {
     description: "Ceremonia religiosa donde intercambiamos votos ante Dios en la Parroquia El Señor de la Misericordia."
   }, {
     time: '4:00 PM',
-    title: 'Recepción de Invitados',
-    description: "Llegada al salón de eventos Ikaan para el cóctel de bienvenida. Disfruta de bebidas mientras nos reencontramos."
+    title: 'Cóctel de Bienvenida',
+    description: "Llegada al salón de eventos Ikaan para el cóctel de bienvenida. Disfrutemos de bebidas y aperitivos mientras tomamos fotos."
   }, {
     time: '5:00 PM',
-    title: 'Entrada a la Hacienda',
+    title: 'Recepción Formal',
     description: 'Los invitados toman sus asientos en la hacienda para el inicio formal de la recepción y celebración principal.'
   }, {
     time: '7:00 PM',
-    title: 'Banquete',
-    description: 'Comienza el servicio de banquete con entrada, cena y postre. Disfrutemos juntos de esta celebración especial.'
+    title: 'Banquete y Baile',
+    description: 'Comienza el servicio de banquete con entrada, cena y postre. Disfrutemos juntos de nuestro día especial.'
   }, 
 ];
 

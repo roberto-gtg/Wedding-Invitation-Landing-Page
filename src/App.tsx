@@ -4,6 +4,7 @@ import { EventDetails } from './components/EventDetails';
 import { RsvpForm } from './components/RsvpForm';
 import { Timeline } from './components/Timeline';
 import { Gallery } from './components/Gallery';
+import { GiftRegistry } from './components/GiftRegistry';
 // import { AdditionalInfo } from './components/AdditionalInfo';
 import { Footer } from './components/Footer';
 
@@ -21,6 +22,9 @@ export function App() {
       </div>
       <div id="gallery">
         <Gallery />
+      </div>
+      <div id="registry">
+        <GiftRegistry />
       </div>
       {/* <div id="info">
         <AdditionalInfo />

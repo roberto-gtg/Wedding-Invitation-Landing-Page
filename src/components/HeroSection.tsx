@@ -8,7 +8,7 @@ export const HeroSection = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   useEffect(() => {
     const calculateDaysLeft = () => {
-      const weddingDate = new Date('2025-06-21');
+      const weddingDate = new Date('2025-09-20');
       const today = new Date();
       const timeDiff = weddingDate.getTime() - today.getTime();
       const daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
@@ -116,10 +116,10 @@ export const HeroSection = () => {
           <div className="h-px w-8 md:w-12 bg-white"></div>
         </div>
         <p className="text-lg md:text-2xl font-light mb-6 md:mb-8">
-          Junio 21, 2025
+          Septiembre 20, 2025
         </p>
         <p className="text-base md:text-xl font-light">
-          San Pedro Garza García • Nuevo León • México
+          Ikaan • Nuevo León • México
         </p>
         <a 
           href="https://forms.gle/DFaJfwMiwsX29GG68" 
