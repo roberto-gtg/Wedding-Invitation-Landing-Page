@@ -4,7 +4,8 @@ import { EventDetails } from './components/EventDetails';
 import { RsvpForm } from './components/RsvpForm';
 import { Timeline } from './components/Timeline';
 import { Gallery } from './components/Gallery';
-import { AdditionalInfo } from './components/AdditionalInfo';
+import { GiftRegistry } from './components/GiftRegistry';
+// import { AdditionalInfo } from './components/AdditionalInfo';
 import { Footer } from './components/Footer';
 
 export function App() {
@@ -22,9 +23,12 @@ export function App() {
       <div id="gallery">
         <Gallery />
       </div>
-      <div id="info">
-        <AdditionalInfo />
+      <div id="registry">
+        <GiftRegistry />
       </div>
+      {/* <div id="info">
+        <AdditionalInfo />
+      </div> */}
       <Footer />
     </div>;
 }

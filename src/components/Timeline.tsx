@@ -4,21 +4,22 @@ import { Fade } from "react-awesome-reveal";
 export const Timeline = () => {
   const events = [{
     time: '12:00 PM',
-    title: 'Iglesia',
-    description: "Nos reunimos mientras intercambiamos votos en la Parroquia, El Señor de la Misericordia."
-  }, {
-    time: '3:30 PM',
-    title: 'Hora de coctel',
-    description: "Disfrutemos de bebidas y aperitivos en la terraza de Ikaan mientras tomamos fotos."
+    title: 'Ceremonia Religiosa',
+    description: "Ceremonia religiosa donde intercambiamos votos ante Dios en la Parroquia El Señor de la Misericordia."
   }, {
     time: '4:00 PM',
-    title: 'Recepción',
-    description: 'El comienzo del evento, con cena, brindis y celebración.'
+    title: 'Cóctel de Bienvenida',
+    description: "Llegada al salón de eventos Ikaan para el cóctel de bienvenida. Disfrutemos de bebidas y aperitivos mientras tomamos fotos."
   }, {
-    time: '6:00 PM a 12:00 PM',
-    title: 'Cena y Baile',
-    description: 'Disfrutemos de la cena, preparándonos para el baile de nuestra noche inolvidable.'
-  }];
+    time: '5:00 PM',
+    title: 'Recepción Formal',
+    description: 'Los invitados toman sus asientos en la hacienda para el inicio formal de la recepción y celebración principal.'
+  }, {
+    time: '7:00 PM',
+    title: 'Banquete y Baile',
+    description: 'Comienza el servicio de banquete con entrada, cena y postre. Disfrutemos juntos de nuestro día especial.'
+  }, 
+];
 
   return (
     <div className="w-full py-24 px-4 bg-white">
