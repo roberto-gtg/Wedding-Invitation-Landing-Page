@@ -122,8 +122,8 @@ export const HeroSection = () => {
           Ikaan • Nuevo León • México
         </p>
         <a 
-          href="https://forms.gle/DFaJfwMiwsX29GG68" 
-          target="_blank" 
+          href="https://forms.gle/nDj7fJ6TzZxEpnyM6" 
+          target="_blank"
           rel="noopener noreferrer" 
           className="mt-8 md:mt-12 px-6 md:px-8 py-3 border-2 border-white hover:bg-white hover:bg-opacity-20 transition-all duration-300 text-white font-light tracking-wider text-sm md:text-base"
         >

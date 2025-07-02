@@ -11,7 +11,7 @@ export const RsvpForm = () => {
             RSVP
           </h2>
           <p className="text-center text-gray-600 mb-12">
-            Favor de responder antes de Junio 1, 2025
+            Favor de responder antes de Agosto 20, 2025
           </p>
         </Fade>
         
@@ -21,7 +21,7 @@ export const RsvpForm = () => {
               Para confirmar tu asistencia, por favor completa el siguiente formulario:
             </p>
             <a 
-              href="https://forms.gle/DFaJfwMiwsX29GG68" 
+              href="https://forms.gle/nDj7fJ6TzZxEpnyM6" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="inline-flex items-center px-8 py-3 bg-[#d4b8aa] text-white font-medium rounded-md hover:bg-[#c6a99b] transition-colors duration-300"
