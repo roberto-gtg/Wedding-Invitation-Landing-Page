@@ -50,9 +50,9 @@ export const HeroSection = () => {
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('rsvp')} className="text-white text-xl hover:text-[#d4b8aa] transition-colors">
+                <a href="https://forms.gle/nDj7fJ6TzZxEpnyM6" target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:text-[#d4b8aa] transition-colors">
                   RSVP
-                </button>
+                </a>
               </li>
               <li>
                 <button onClick={() => scrollToSection('timeline')} className="text-white text-xl hover:text-[#d4b8aa] transition-colors">
@@ -84,9 +84,9 @@ export const HeroSection = () => {
               </button>
             </li>
             <li>
-              <button onClick={() => scrollToSection('rsvp')} className="hover:text-[#d4b8aa] transition-colors">
+              <a href="https://forms.gle/nDj7fJ6TzZxEpnyM6" target="_blank" rel="noopener noreferrer" className="hover:text-[#d4b8aa] transition-colors">
                 RSVP
-              </button>
+              </a>
             </li>
             <li>
               <button onClick={() => scrollToSection('timeline')} className="hover:text-[#d4b8aa] transition-colors">
@@ -131,9 +131,9 @@ export const HeroSection = () => {
         <p className="text-base md:text-xl font-light">
           Ikaan • Nuevo León • México
         </p>
-        <button onClick={() => scrollToSection('rsvp')} className="mt-8 md:mt-12 px-6 md:px-8 py-3 border-2 border-white hover:bg-white hover:bg-opacity-20 transition-all duration-300 text-white font-light tracking-wider text-sm md:text-base">
+        <a href="https://forms.gle/nDj7fJ6TzZxEpnyM6" target="_blank" rel="noopener noreferrer" className="mt-8 md:mt-12 px-6 md:px-8 py-3 border-2 border-white hover:bg-white hover:bg-opacity-20 transition-all duration-300 text-white font-light tracking-wider text-sm md:text-base inline-block">
           RSVP
-        </button>
+        </a>
         <div className="mt-4 lg:mt-8 flex flex-col items-center">
           <p className="text-2xl md:text-4xl font-serif mb-2">{daysLeft}</p>
           <p className="text-xs md:text-base font-light tracking-wider uppercase">
