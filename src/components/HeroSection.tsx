@@ -38,7 +38,7 @@ export const HeroSection = () => {
     }
     setIsMobileMenuOpen(false);
   };
-  return <div className="w-full min-h-screen bg-[url('https://uploadthingy.s3.us-west-1.amazonaws.com/qLXwM3wqj9cRsaskcaZoPm/RobertoCompletas%2828%29.jpg')] bg-cover bg-center">
+  return <div className="w-full min-h-screen bg-[url('/75Civil_KatiaRoberto-2.jpeg')] bg-cover bg-center">
       {/* Mobile Menu - moved outside of nav */}
       {isMobileMenuOpen && 
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[100] lg:hidden">

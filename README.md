@@ -19,6 +19,11 @@ A beautiful, responsive wedding invitation website built with React, TypeScript,
 ### RSVP Integration (Latest)
 - **Updated RSVP Links**: All RSVP buttons (mobile menu, desktop navigation, and main hero button) now link directly to Google Form (https://forms.gle/nDj7fJ6TzZxEpnyM6) instead of scrolling to internal RSVP form section
 
+### Hero Background Image Update
+- **Image Update**: Replaced external S3 background image with local `75Civil_KatiaRoberto-2.jpeg`
+- **Performance**: Improved loading times by using local assets instead of external URLs
+- **Consistency**: Better asset management with all images stored locally in public folder
+
 ### Gift Registry Component Refactor
 - **New Component**: Created dedicated `GiftRegistry.tsx` component
 - **Repositioning**: Moved gift registry section to bottom of website (after gallery, before footer)
