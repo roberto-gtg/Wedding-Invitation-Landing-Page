@@ -20,7 +20,7 @@ export const EventDetails = () => {
                   <CalendarIcon className="text-[#d4b8aa]" size={28} />
               </div>
               <h3 className="text-xl font-medium mb-2 text-gray-800">Fecha</h3>
-              <p className="text-gray-600">20 septiembre, 2025</p>
+              <p className="text-gray-600">20 de septiembre de 2025</p>
               <p className="text-gray-600 text-sm mt-1">Ceremonia: 12:00 PM</p>
               <p className="text-gray-600 text-sm">Recepción: 4:00 PM</p>
             </div>
@@ -60,8 +60,8 @@ export const EventDetails = () => {
               <h3 className="text-xl font-medium mb-2 text-gray-800">
                 Recepción
               </h3>
-              <p className="text-gray-600 text-sm">Ikaan - Salón de Eventos</p>
-              
+              <p className="text-gray-600 text-sm">Ikaan Villa Spa</p>
+              <p className="text-gray-600 text-sm">Carretera Montemorelos - Allende km 218</p>
               <a 
                 href="https://maps.app.goo.gl/FD47QoECBWpKH77J9" 
                 target="_blank" 

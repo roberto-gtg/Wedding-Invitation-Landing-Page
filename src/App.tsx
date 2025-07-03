@@ -23,9 +23,6 @@ export function App() {
       <div id="gallery">
         <Gallery />
       </div>
-      <div id="registry">
-        <GiftRegistry />
-      </div>
       {/* <div id="info">
         <AdditionalInfo />
       </div> */}

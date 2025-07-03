@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Symphony&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kapakana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
 .cursive-title {
-  font-family: 'Symphony', cursive;
+  font-family: 'Kapakana', cursive;
 }
 
 /* Add other styles for HeroSection here if needed */

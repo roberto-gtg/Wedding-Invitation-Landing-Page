@@ -17,7 +17,7 @@ export const Timeline = () => {
   }, {
     time: '7:00 PM',
     title: 'Banquete y Baile',
-    description: 'Comienza el servicio de banquete con entrada, cena y postre. Disfrutemos juntos de nuestro día especial.'
+    description: 'Comienza el servicio de banquete. Disfrutemos juntos de nuestro día especial.'
   }, 
 ];
 

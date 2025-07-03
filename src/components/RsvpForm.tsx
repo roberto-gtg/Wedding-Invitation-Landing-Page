@@ -1,37 +1,42 @@
 import React from 'react';
 import { Fade } from "react-awesome-reveal";
-import { ExternalLink } from 'lucide-react';
+import { Gift, CreditCard } from 'lucide-react';
 
 export const RsvpForm = () => {
   return (
-    <div className="w-full py-24 px-4 bg-[#f5efe9]">
-      <div className="max-w-3xl mx-auto">
+    <div className="w-full py-24 bg-white">
         <Fade direction="up" duration={1000} triggerOnce={true}>
-          <h2 className="text-3xl md:text-4xl font-serif text-center mb-6 text-gray-800">
-            RSVP
-          </h2>
-          <p className="text-center text-gray-600 mb-12">
-            Favor de responder antes de Agosto 20, 2025
-          </p>
-        </Fade>
-        
-        <Fade direction="up" duration={1000} delay={100} triggerOnce={true} fraction={0.2}>
-          <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-            <p className="text-gray-700 mb-8">
-              Para confirmar tu asistencia, por favor completa el siguiente formulario:
-            </p>
-            <a 
-              href="https://forms.gle/nDj7fJ6TzZxEpnyM6" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="inline-flex items-center px-8 py-3 bg-[#d4b8aa] text-white font-medium rounded-md hover:bg-[#c6a99b] transition-colors duration-300"
-            >
-              Formulario RSVP
-              <ExternalLink size={16} className="ml-2" />
-            </a>
+          <div className="p-8 flex flex-col items-center bg-[#f5efe9] rounded-lg">
+            <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mb-4">
+              <Gift className="text-[#d4b8aa]" size={32} />
             </div>
+            <h3 className="text-2xl font-medium mb-4 text-gray-800">
+              Mesa de Regalos y Depósito Bancario
+            </h3>
+            <p className="text-gray-600 text-center">
+            ¡Nos hará inmensamente felices contar con tu compañía en este día tan especial!</p>
+            <p className="text-gray-600 text-center mb-6">
+            Si, además, deseas regalarnos un detalle, hemos preparado con cariño una mesa de regalos o también ponemos a tu disposición nuestra cuenta bancaria:
+            </p>
+            <a
+              href="https://www.amazon.com.mx/wedding/registry/2E0W8S4YNZTC4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-[#d4b8aa] text-white font-medium rounded-md hover:bg-[#c6a99b] transition-colors duration-300 mb-6"
+            >
+              <div className="flex items-center justify-center">
+                <Gift size={20} className="mr-3" />
+                Ver Mesa de Regalos
+              </div>
+            </a>
+            <div className="w-full border-t border-gray-300 my-6"></div>
+            <div className="flex flex-col items-center text-gray-800 text-center space-y-1">
+              <p><strong>Banco:</strong> Santander</p>
+              <p><strong>Titular:</strong> Roberto Gerardo Trevino Garcia</p>
+              <p><strong>CLABE:</strong> 014580260230165511</p>
+            </div>
+          </div>
         </Fade>
-      </div>
     </div>
   );
 };

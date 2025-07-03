@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { HeartIcon, MenuIcon, XIcon } from 'lucide-react';
+import { MenuIcon, XIcon } from 'lucide-react';
 import './HeroSection.css';
 
 export const HeroSection = () => {
@@ -107,14 +107,9 @@ export const HeroSection = () => {
         <p className="text-base md:text-xl font-light tracking-widest uppercase mb-4">
           Celebrando nuestro matrimonio
         </p>
-        <h1 className="text-4xl md:text-7xl lg:text-8xl font-serif mb-2 cursive-title">
+        <h1 className="text-5xl md:text-8xl lg:text-9xl font-serif mb-2 cursive-title">
           Kattia & Roberto
         </h1>
-        <div className="flex items-center justify-center my-6">
-          <div className="h-px w-8 md:w-12 bg-white"></div>
-          <HeartIcon className="mx-3 md:mx-4" size={20} />
-          <div className="h-px w-8 md:w-12 bg-white"></div>
-        </div>
         <p className="text-lg md:text-2xl font-light mb-6 md:mb-8">
           Septiembre 20, 2025
         </p>
