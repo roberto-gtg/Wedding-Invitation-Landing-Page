@@ -11,7 +11,7 @@ export const RsvpForm = () => {
               <Gift className="text-[#d4b8aa]" size={32} />
             </div>
             <h3 className="text-2xl font-medium mb-4 text-gray-800">
-              Mesa de Regalos y Depósito Bancario
+              Opciones de Regalo
             </h3>
             <p className="text-gray-600 text-center">
             ¡Nos hará inmensamente felices contar con tu compañía en este día tan especial!</p>
