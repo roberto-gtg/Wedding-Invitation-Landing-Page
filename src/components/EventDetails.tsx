@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from "react-awesome-reveal";
-import { Church, MapPinIcon, CalendarIcon, GlassesIcon, PartyPopper } from 'lucide-react';
+import { Church, MapPinIcon, CalendarIcon, GlassesIcon, PartyPopper, ExternalLinkIcon } from 'lucide-react';
 
 export const EventDetails = () => {
   return (
@@ -87,6 +87,19 @@ export const EventDetails = () => {
               </h3>
               <p className="text-gray-600 text-sm">Hombres: Formal</p>
               <p className="text-gray-600 text-sm">Mujeres: Vestido no negro</p>
+              
+              <a 
+                href="https://pin.it/5Btus4jzL" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="mt-4 inline-block px-4 py-2 bg-[#d4b8aa] text-white font-medium rounded-md hover:bg-[#c6a99b] transition-colors duration-300"
+                onClick={() => console.log('Opening dress code suggestions on Pinterest')} // Debug log
+              >
+                <div className="flex items-center justify-center">
+                  <ExternalLinkIcon size={16} className="mr-2" />
+                  Sugerencias de vestimenta
+                </div>
+              </a>
             </div>
           </Fade>
         </div>
